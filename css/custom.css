@@ -1,0 +1,24 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],  ng-cloak, x-ng-cloak{
+	display: none !important;
+}
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+#monthDivision{
+	text-align: center;
+}
+#monthDivision td:hover, label:hover{
+	cursor: pointer;
+	background: #E8E8E8;
+	transition: all .3s linear 0s;
+}
+#monthDivision th{
+	text-align: center;
+}
+#eventsDiv{
+	max-height: 350px;
+	overflow-y: scroll;
+}
+#notification{
+	margin: 0;
+}
